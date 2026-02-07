@@ -88,12 +88,12 @@
 
 .d2 span{
     font-weight: 700;
-    color: blue;
+    color: rgb(0, 0, 91);
 }
 
 /* этот селектор применяется к не посещеным ссылкам */
 a:link{
-    color: brown;
+    color: rgb(0, 47, 84);
 }
 
 a:visited{
