@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Семантические теги HTML</title>
+    <style>
+        /* Минимальные стили для наглядности */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        header {
+            background-color: #4CAF50; /* Зеленый */
+            color: white;
+            padding: 20px;
+            text-align: center;
+            display: flex;
+            justify-content: space-around;
+        }
+        nav {
+            background-color: #8BC34A; /* Светло-зеленый */
+            padding: 10px;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+        }
+        main {
+            background-color: #f1f1f1; /* Светло-серый */
+            padding: 20px;
+            flex: 1;
+            display: flex;
+        }
+        article {
+            background-color: #ff9800; /* Оранжевый */
+            padding: 15px;
+            margin-bottom: 15px;
+            flex: 3;
+        }
+        section {
+            background-color: #2196F3; /* Голубой */
+            padding: 15px;
+            margin-bottom: 15px;
+            color: white;
+        }
+        aside {
+            background-color: #9C27B0; /* Фиолетовый */
+            color: white;
+            padding: 15px;
+            margin-left: 20px;
+            flex: 1;
+        }
+        footer {
+            background-color: #607d8b; /* Серо-голубой */
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Шапка сайта</h1>
+    <!-- Навигационное меню -->
+    <nav>
+        <ul>
+            <li><a href="#">Главная</a></li>
+            <li><a href="#">О нас</a></li>
+            <li><a href="#">Услуги</a></li>
+            <li><a href="#">Контакты</a></li>
+        </ul>
+    </nav>
+    </header>
+
+    <!-- Основное содержимое -->
+    <main>
+        <!-- Самостоятельный, независимый фрагмент контента на странице. -->
+        <article>
+            <h2>Что такое HTML5?</h2>
+            <p>HTML5 - это последняя версия языка разметки для создания веб-страниц.</p>
+
+            <!-- Раздел -->
+            <section>
+                <h3>Популярные теги</h3>
+                <p>В HTML5 появилось много новых семантических тегов.</p>
+            </section>
+
+            <!-- Еще один раздел -->
+            <section>
+                <h3>Зачем нужна семантика?</h3>
+                <p>Семантические теги помогают браузерам и поисковым системам лучше понимать структуру страницы.</p>
+            </section>
+        </article>
+
+        <!-- Боковая панель -->
+        <aside>
+            <h3>Дополнительная информация</h3>
+            <p>Здесь может быть реклама, ссылки на другие статьи или дополнительный контент.</p>
+            <ul>
+                <li>Ссылка 1</li>
+                <li>Ссылка 2</li>
+                <li>Ссылка 3</li>
+            </ul>
+        </aside>
+    </main>
+
+    <!-- Подвал сайта -->
+    <footer>
+        <p>© 2025 Учебный проект по HTML</p>
+        <p>Контактная информация: example@email.com</p>
+    </footer>
+</body>
+</html>
